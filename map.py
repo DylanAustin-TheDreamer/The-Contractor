@@ -4,8 +4,22 @@ import random
 from Utilities.solar_system_nameGen import generate_name_solar
 from Utilities.planet_nameGen import generate_name_planet
 from Utilities.planet_artGen import generate_planet_art
+from Utilities.sun_artGen import generate_sun_art
 from settlementGen import make_settlement
 from space_stationGen import make_space_station
+
+SUNS = [
+    "Neutron_star",
+    "White_dwarf",
+    "Red_dwarf",
+    "G-type",
+    "K-type",
+    "M-type",
+    "F-type",
+    "A-type",
+    "B-type",
+    "O-type"
+]
 
 def make_map(solar_system, the_great_galaxy, positionX, positionY):
     """ This function will generate a map """
@@ -15,6 +29,7 @@ def make_map(solar_system, the_great_galaxy, positionX, positionY):
     solar_system = {}
     solar_system.update({"id": generate_obj_id()})
     solar_system.update({"system_name": generate_name_solar()})
+    solar_system.update({"sun": generate_sun_art(random.choice(SUNS))})
     solar_system.update({"positionX": positionX})
     solar_system.update({"positionY": positionY})
     solar_system.update({"wanted_level": 0})

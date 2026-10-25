@@ -81,6 +81,156 @@ BIOMES = {
     "crater_chance": 0,
     "crack_chance": 0,
 },
+"Neutron_star": {
+    "palette": [
+        (45, 65, 105),    # deep blue shadow
+        (105, 145, 210),   # blue shadow
+        (165, 200, 245),   # blue highlight
+        (210, 230, 255),   # pale blue
+        (240, 247, 255),   # near white
+        (255, 255, 255),   # bright white
+        (255, 255, 255),   # white
+        (255, 255, 255),   # white highlight
+    ],
+    "noise_scale": 0.5,
+    "crater_chance": 0,
+    "crack_chance": 0,
+    },
+"M-type": {
+    "palette": [
+        (50, 20, 20),     # deep shadow
+        (100, 40, 40),    # dark red
+        (150, 60, 60),    # red
+        (200, 80, 80),    # light red
+        (255, 100, 100),  # bright red
+        (255, 150, 150),  # pinkish red
+        (255, 200, 200),  # pale pink
+        (255, 220, 220),  # very pale pink
+    ],
+    "noise_scale": 0.6,
+    "crater_chance": 0,
+    "crack_chance": 0,
+    },
+"G-type": {
+    "palette": [
+        (50, 50, 20),     # deep shadow
+        (100, 100, 40),   # dark yellow
+        (150, 150, 60),   # yellow
+        (200, 200, 80),   # light yellow
+        (255, 255, 100),  # bright yellow
+        (255, 255, 150),  # pale yellow
+        (255, 255, 200),  # very pale yellow
+        (255, 255, 220),  # almost white
+    ],
+    "noise_scale": 0.6,
+    "crater_chance": 0,
+    "crack_chance": 0,
+},
+"K-type": {
+    "palette": [
+        (50, 30, 20),     # deep shadow
+        (100, 60, 40),    # dark orange
+        (150, 90, 60),    # orange
+        (200, 120, 80),   # light orange
+        (255, 150, 100),  # bright orange
+        (255, 180, 140),  # pale orange
+        (255, 210, 180),  # very pale orange
+        (255, 230, 210),  # almost white
+    ],
+    "noise_scale": 0.6,
+    "crater_chance": 0,
+    "crack_chance": 0,
+    },
+"F-type": {
+    "palette": [
+        (50, 50, 30),     # deep shadow
+        (100, 100, 60),   # dark yellow
+        (150, 150, 90),   # yellow
+        (200, 200, 120),  # light yellow
+        (255, 255, 150),  # bright yellow
+        (255, 255, 180),  # pale yellow
+        (255, 255, 210),  # very pale yellow
+        (255, 255, 230),  # almost white
+    ],
+    "noise_scale": 0.6,
+    "crater_chance": 0,
+    "crack_chance": 0,
+    },
+"A-type": {
+    "palette": [
+        (50, 50, 50),     # deep shadow
+        (100, 100, 100),  # dark gray
+        (150, 150, 150),  # gray
+        (200, 200, 200),  # light gray
+        (255, 255, 255),  # bright white
+        (255, 255, 255),  # pale white
+        (255, 255, 255),  # very pale white
+        (255, 255, 255),  # almost white
+    ],
+    "noise_scale": 0.6,
+    "crater_chance": 0,
+    "crack_chance": 0,
+},
+"B-type": {
+    "palette": [
+        (50, 50, 100),    # deep shadow
+        (100, 100, 200),  # dark blue
+        (150, 150, 255),  # blue
+        (200, 200, 255),  # light blue
+        (255, 255, 255),  # bright white
+        (255, 255, 255),  # pale white
+        (255, 255, 255),  # very pale white
+        (255, 255, 255),  # almost white
+    ],
+    "noise_scale": 0.6,
+    "crater_chance": 0,
+    "crack_chance": 0,
+},
+"O-type": {
+    "palette": [
+        (10, 25, 75),     # deep blue shadow
+        (20, 65, 150),    # dark blue
+        (45, 110, 220),   # vivid blue
+        (86, 145, 255),   # blue
+        (140, 190, 255),  # light blue
+        (190, 220, 255),  # pale blue
+        (225, 240, 255),  # very pale blue
+        (255, 255, 255),  # almost white
+    ],
+    "noise_scale": 0.6,
+    "crater_chance": 0,
+    "crack_chance": 0,
+},
+"Red_dwarf": {
+    "palette": [
+        (50, 20, 20),     # deep shadow
+        (100, 40, 40),    # dark red
+        (150, 60, 60),    # red
+        (200, 80, 80),    # light red
+        (255, 100, 100),  # bright red
+        (255, 150, 150),  # pinkish red
+        (255, 200, 200),  # pale pink
+        (255, 220, 220),  # very pale pink
+    ],
+    "noise_scale": 0.6,
+    "crater_chance": 0,
+    "crack_chance": 0,
+},
+"White_dwarf": {
+    "palette": [
+        (50, 50, 50),     # deep shadow
+        (100, 100, 100),  # dark gray
+        (150, 150, 150),  # gray
+        (200, 200, 200),  # light gray
+        (255, 255, 255),  # bright white
+        (255, 255, 255),  # pale white
+        (255, 255, 255),  # very pale white
+        (255, 255, 255),  # almost white
+    ],
+    "noise_scale": 0.6,
+    "crater_chance": 0,
+    "crack_chance": 0,
+},
 }
 
 
